@@ -5,27 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style/output.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" sizes="any">
     <title>Random quote</title>
 </head>
 
 <body class="bg-primary font-outfit h-screen flex flex-col justify-center items-center">
     <div class="bg-bg-hero bg-card bg-cover p-8 flex flex-col items-center rounded-xl max-w-[540px] mx-12">
-        <h1 class="text-[#ffffff] text-center text-base">George Bernard Shaw</h1>
-        <div class="text-[10px] text-center text-tags m-3 flex flex-col sm:flex-row gap-2">
-            <span class="py-1 px-3 border rounded-full">Famous Quotes</span>
-            <span class="py-1 px-3 border rounded-full">Inspirational</span>
+        <h1 class="author text-[#ffffff] text-center text-base"></h1>
+        <div class="tags text-[10px] text-center text-tags m-3 flex flex-col sm:flex-row gap-2">
+            <span class="py-1 px-3 border rounded-full"></span>
         </div>
-        <p class="text-body text-center text-2xl mt-3 mb-2">"Learn from yesterdey, live for today, hope for tomorrow."
-        </p>
+        <p class="quote text-body text-center text-2xl mt-3 mb-2"></p>
     </div>
-    <div class="border-buttons flex border rounded-xl divide-x divide-buttons m-4">
-        <button class="py-2 px-3">
+    <div class="border-buttons flex border rounded-xl divide-x divide-buttons m-4 overflow-hidden">
+        <button class="random py-2 px-3 active:bg-body transition-all">
             <img src="./assets/Regroup.svg" alt="Regroup">
         </button>
-        <button class="py-2 px-3">
+        <button class="copy py-2 px-3 active:bg-body transition-all">
             <img src="./assets/link.svg" alt="link">
         </button>
     </div>
 </body>
-
+<script src="./js/main.js"></script>
 </html>
