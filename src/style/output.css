@@ -524,9 +524,6 @@ video {
 .mt-3{
   margin-top: 0.75rem;
 }
-.block{
-  display: block;
-}
 .flex{
   display: flex;
 }
@@ -562,6 +559,9 @@ video {
 }
 .overflow-hidden{
   overflow: hidden;
+}
+.overflow-y-auto{
+  overflow-y: auto;
 }
 .rounded-full{
   border-radius: 9999px;
